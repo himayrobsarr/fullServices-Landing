@@ -37,7 +37,7 @@ const FullServiceLanding = () => {
             </div>
             <div className="md:w-1/2 mt-8 md:mt-0">
               <img
-                src="/src/assets/team2.jpg"
+                src="/team2.jpg"
                 alt="FullService Header"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
@@ -62,7 +62,7 @@ const FullServiceLanding = () => {
               </div>
               <div className="md:w-1/2 flex justify-center">
                 <img
-                  src="/src/assets/team.png"
+                  src="/team.png"
                   alt="Equipo FullService"
                   width={400}
                   height={300}
