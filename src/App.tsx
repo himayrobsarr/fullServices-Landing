@@ -1,6 +1,12 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import globantLogo from '../public/globant.png'
+import applusLogo from '../public/applus.png'
+import siesaLogo from '../public/siesa.jpg'
+import masabiLogo from '../public/masabi.png'
+import teamPhoto from '../public/team.png'
+import team2Photo from '../public/team2.JPG'
 
 const FullServiceLanding = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -37,7 +43,7 @@ const FullServiceLanding = () => {
             </div>
             <div className="md:w-1/2 mt-8 md:mt-0">
               <img
-                src="/team2.jpg"
+                src={team2Photo}
                 alt="FullService Header"
                 className="w-full h-auto rounded-lg shadow-xl"
               />
@@ -62,7 +68,7 @@ const FullServiceLanding = () => {
               </div>
               <div className="md:w-1/2 flex justify-center">
                 <img
-                  src="/team.png"
+                  src={teamPhoto}
                   alt="Equipo FullService"
                   width={400}
                   height={300}
@@ -152,22 +158,22 @@ const FullServiceLanding = () => {
             <h2 className="text-3xl font-bold text-center mb-12">Empresas que confían en nosotros</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
               <img 
-                src={`${window.location.origin}/globant.png`} 
+                src={globantLogo}
                 alt="Globant" 
                 className="h-12 md:h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300"
               />
               <img 
-                src="/applus.png" 
+                src={applusLogo}
                 alt="Applus" 
                 className="h-12 md:h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300"
               />
               <img 
-                src="/siesa.jpg" 
+                src={siesaLogo}
                 alt="Siesa" 
                 className="h-12 md:h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300"
               />
               <img 
-                src="/masabi.png" 
+                src={masabiLogo}
                 alt="Masabi" 
                 className="h-12 md:h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300"
               />
