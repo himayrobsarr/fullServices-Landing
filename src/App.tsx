@@ -152,22 +152,22 @@ const FullServiceLanding = () => {
             <h2 className="text-3xl font-bold text-center mb-12">Empresas que confían en nosotros</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
               <img 
-                src="/src/assets/globant.png" 
+                src="/globant.png" 
                 alt="Globant" 
                 className="h-12 md:h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300"
               />
               <img 
-                src="/src/assets/applus.png" 
+                src="/applus.png" 
                 alt="Applus" 
                 className="h-12 md:h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300"
               />
               <img 
-                src="/src/assets/siesa.jpg" 
+                src="/siesa.jpg" 
                 alt="Siesa" 
                 className="h-12 md:h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300"
               />
               <img 
-                src="/src/assets/masabi.png" 
+                src="/masabi.png" 
                 alt="Masabi" 
                 className="h-12 md:h-16 w-auto filter grayscale hover:grayscale-0 transition-all duration-300"
               />
